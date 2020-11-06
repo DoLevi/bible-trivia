@@ -3,9 +3,9 @@
     <svg viewBox="0 0 100 10" height="2em">
       <path
         d="M 0 0 H 99 0 M 99 0 C 99 0, 99 5, 97 5 S 94 5, 94 10 H 0 V 0"
-        stroke="#2b3fe3"
+        stroke="#4bdf82"
         stroke-width="1px"
-        fill="#ccff44"
+        fill="#6bffa2"
       />
       <text
         x="50%"

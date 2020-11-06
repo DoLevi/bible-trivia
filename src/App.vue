@@ -21,7 +21,7 @@ export default defineComponent({
   }
 });
 
-// #8A41FA #2B3FE3 #3CAEFA #2BE3D1 #6BFFA2
+// #8a41fa #2b3fe3 #3caefa #2be3d1 #6bffa2
 </script>
 
 <style>
