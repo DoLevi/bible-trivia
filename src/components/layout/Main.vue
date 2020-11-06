@@ -2,6 +2,7 @@
   <div class="root">
     <Illustration />
     <Progress />
+    <Questions />
   </div>
 </template>
 
@@ -9,12 +10,14 @@
 import { defineComponent } from "vue";
 import Progress from "../main/progress/Progress.vue";
 import Illustration from "../main/Illustration.vue";
+import Questions from "../main/Questions.vue";
 
 export default defineComponent({
   name: "Main",
   components: {
     Progress,
-    Illustration
+    Illustration,
+    Questions
   }
 });
 </script>
@@ -23,6 +26,7 @@ export default defineComponent({
 <style scoped>
 .root {
   flex: auto;
+  min-height: 800px;
   margin: 0 calc(100% / 6);
   padding: 6px;
   display: grid;
@@ -31,6 +35,8 @@ export default defineComponent({
   grid-template-areas:
     "illustration progress"
     "question question";
+  grid-column-gap: 1em;
+  grid-row-gap: 1em;
   background-color: #ffffff;
   box-shadow: 0 0 2px 0 #646464;
 }
