@@ -25,7 +25,8 @@ export default defineComponent({
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .progress-root {
-  background-color: #6bffa2;
+  grid-area: progress;
+  background-color: #3caefa;
   box-shadow: 0 0 4px 0 #3caefa;
   padding: 1em;
   display: flex;
