@@ -35,8 +35,8 @@ export default defineComponent({
   grid-template-areas:
     "illustration progress"
     "question question";
-  grid-column-gap: 1em;
-  grid-row-gap: 1em;
+  grid-column-gap: 6px;
+  grid-row-gap: 6px;
   background-color: #ffffff;
   box-shadow: 0 0 2px 0 #646464;
 }

@@ -27,7 +27,7 @@ export default defineComponent({
 .progress-root {
   grid-area: progress;
   background-color: #3caefa;
-  box-shadow: 0 0 4px 0 #3caefa;
+  box-shadow: 0 0 4px 0 #666666;
   padding: 1em;
   display: flex;
   flex-direction: column-reverse;

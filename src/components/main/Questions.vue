@@ -21,6 +21,7 @@ export default defineComponent({
 .question-root {
   grid-area: question;
   background-color: #4bdf82;
+  box-shadow: 0 0 4px 0 #666666;
   padding: 1em;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -34,6 +35,7 @@ export default defineComponent({
 .question-result {
   margin: 0.5em;
   background-color: #2b3fe3;
+  box-shadow: 0 0 3px 0 #1baf52;
   display: flex;
   justify-content: center;
   align-items: center;
