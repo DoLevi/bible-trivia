@@ -27,7 +27,8 @@ import { defineComponent } from "vue";
 export default defineComponent({
   name: "ProgressStep",
   props: {
-    value: Number
+    value: Number,
+    selected: Boolean
   }
 });
 </script>
