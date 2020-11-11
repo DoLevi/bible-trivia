@@ -1,7 +1,7 @@
 <template>
-    <div>
-        Footer
-    </div>
+  <div>
+    Footer
+  </div>
 </template>
 
 <script lang="ts">
@@ -15,10 +15,10 @@ export default defineComponent({
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 div {
-    flex: none;
-    padding: 1.5em;
-    background-color: #3CAEFA;
-    box-shadow: 0 0 8px 0 #3CAEFA;
-    z-index: 100;
+  flex: none;
+  padding: 1.5em;
+  background-color: #2b90d9;
+  box-shadow: 0 0 8px 0 #2b90d9;
+  z-index: 100;
 }
 </style>

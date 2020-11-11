@@ -17,8 +17,8 @@ export default defineComponent({
 div {
   flex: none;
   padding: 1.5em;
-  background-color: #3caefa;
-  box-shadow: 0 0 8px 0 #3caefa;
+  background-color: #2b90d9;
+  box-shadow: 0 0 8px 0 #2b90d9;
   z-index: 100;
 }
 </style>

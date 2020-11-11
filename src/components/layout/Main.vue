@@ -1,8 +1,8 @@
 <template>
   <div class="root">
+    <Questions />
     <Illustration />
     <Progress />
-    <Questions />
   </div>
 </template>
 
@@ -33,11 +33,11 @@ export default defineComponent({
   grid-template-columns: 1fr auto;
   grid-template-rows: auto 1fr;
   grid-template-areas:
-    "illustration progress"
-    "question question";
+    "question question"
+    "illustration progress";
   grid-column-gap: 6px;
   grid-row-gap: 6px;
   background-color: #ffffff;
-  box-shadow: 0 0 2px 0 #646464;
+  box-shadow: 0 0 2px 0 #2c3e50;
 }
 </style>
