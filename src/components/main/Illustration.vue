@@ -10,7 +10,7 @@
     </div>
 
     <div>
-      <img src="@/assets/bible-trivia-illustration.jpg" alt="Illustration" />
+      <img :src="illustration" alt="Illustration" />
       <div class="copyright-notice">
         ©BibleProject
       </div>
@@ -36,6 +36,9 @@ export default defineComponent({
   computed: {
     verses: function() {
       return store.state.wrapperVerses;
+    },
+    illustration: function() {
+      return store.getters.workingIllustrationPath;
     }
   }
 });

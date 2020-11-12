@@ -30,6 +30,7 @@ interface State {
   question: string;
   answers: [string, string, string, string];
   wrapperVerses: [Verse, Verse] | undefined;
+  illustrationPath: string;
 }
 
 export default createStore<State>({
@@ -52,7 +53,13 @@ export default createStore<State>({
         chapterNum: 73,
         verseNum: 26
       }
-    ]
+    ],
+    illustrationPath: "/bible-trivia-illustration.jpg"
+  },
+  getters: {
+    workingIllustrationPath: function(state) {
+      return require("../assets" + state.illustrationPath);
+    }
   },
   mutations: {
     setProgress: function(state, newProgress: number) {
