@@ -26,9 +26,7 @@ export default defineComponent({
 <style scoped>
 .root {
   flex: auto;
-  min-height: 800px;
-  margin: 0 calc(100% / 6);
-  padding: 6px;
+  padding: 6px calc(100% / 6 + 6px);
   display: grid;
   grid-template-columns: 1fr auto;
   grid-template-rows: auto 1fr;
@@ -37,7 +35,6 @@ export default defineComponent({
     "illustration progress";
   grid-column-gap: 6px;
   grid-row-gap: 6px;
-  background-color: #ffffff;
-  box-shadow: 0 0 2px 0 #2c3e50;
+  background-color: #e9f1f8;
 }
 </style>
